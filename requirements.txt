@@ -1,0 +1,6 @@
+fastapi
+mangum
+langchain-openrouter
+langchain-core
+python-dotenv
+pydantic
