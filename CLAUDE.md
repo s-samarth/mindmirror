@@ -32,6 +32,16 @@ Vercel monorepo:
 - LangChain chains in api/chains.py
 - Rate limiting via FastAPI dependencies
 
+## Documentation
+All project documentation lives in `docs/`:
+- `docs/product-overview.md` — Vision, personas, user journeys, metrics
+- `docs/design.md` — Design system, animations, UX decisions
+- `docs/setup-and-running.md` — Local development setup
+- `docs/deployment.md` — Vercel deployment and production notes
+- `docs/api.md` — API endpoint reference
+- `docs/system-design.md` — Architecture and AI chain design
+- `docs/testing.md` — Testing guide and strategy
+
 ## Important
 - OPENROUTER_API_KEY is server-side only (set in Vercel env vars)
 - Follow-up questions STREAM to avoid Vercel timeout
